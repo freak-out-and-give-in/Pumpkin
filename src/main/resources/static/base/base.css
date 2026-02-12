@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+:root {
+    font-family: system-ui, "Arial", sans-serif;
+}
+
+.button {
+    padding: 1px 6px;
+    text-decoration: none;
+}
+
+
+.wrapper {
+    display: grid;
+    grid: 1fr 10fr / 1fr 7fr;
+
+    height: 100%;
+}
+
+.logo, header, nav {
+    background: var(--header-navigation-color);
+    height: 100%;
+}
+
+
+.logo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 120px;
+        height: auto;
+    }
+}
+
+header {
+    display: flex;
+
+    span {
+        margin: auto;
+
+        font-size: 3em;
+        color: white;
+    }
+}
+
+nav {
+    /* Allows us to add padding without creating overflow */
+    box-sizing: border-box;
+    padding: 20px 25px;
+
+    .item {
+        padding: 10px 0px;
+        text-align: center;
+
+        img {
+            width: 15px;
+            height: 15px;
+        }
+
+        a {
+            padding-left: 10px;
+            border: none;
+
+            font-size: 1.3em;
+
+            background: none;
+            color: var(--navigation-text-color);
+
+            cursor: pointer;
+        }
+    }
+}
+
+main {
+    display: flex;
+
+    background: var(--main-background-color);
+}

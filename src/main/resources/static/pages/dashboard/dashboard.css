@@ -1,0 +1,94 @@
+:root {
+    --blue: lightBlue;
+    --green: lightGreen;
+    --red: #E62727;
+}
+
+main {
+    display: grid;
+    grid-rows: 2fr 1fr 4fr;
+
+    padding: 3em;
+}
+
+
+/* Styles the boxes */
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    flex-flow: row wrap;
+
+    text-align: center;
+
+    > div {
+        padding: 16px 20px;
+        color: #F4F3F2;
+        border-radius: 5%;
+
+        span {
+            font-size: 1.6em;
+        }
+    }
+
+    .stats {
+        display: flex;
+        gap: 0.6em;
+
+        text-align: center;
+        font-size: 1.3em;
+
+        > p {
+            width: 100%;
+        }
+    }
+}
+
+.top {
+    gap: 10px;
+
+    .customers {
+        background: var(--blue);
+    }
+
+    .suppliers {
+        background: pink;
+    }
+
+    .purchases {
+        background: var(--red);
+    }
+
+    .sales {
+        background: var(--green);
+    }
+
+    .reports {
+        background: orange;
+    }
+}
+
+.mid {
+    gap: 20px;
+
+    > div {
+        flex-grow: 1;
+    }
+
+    .current-orders {
+        background: var(--blue);
+    }
+
+    .current-trends {
+        background: var(--green);
+    }
+
+    .current-research {
+        background: var(--red);
+    }
+}
+
+.bottom {
+    gap: 20px;
+}

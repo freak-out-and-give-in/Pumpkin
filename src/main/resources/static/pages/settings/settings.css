@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+
+    margin: 50px;
+
+    padding: 40px;
+
+    .setting {
+        padding: 30px;
+        border: 1px solid black;
+        border-bottom: 0;
+
+        font-size: 1.2em;
+
+        label, input {
+            cursor: pointer;
+        }
+    }
+
+    /*
+    Removed bottom border due to overlap
+    This adds it back on for the last element
+    */
+    .setting:last-child {
+        border-bottom: 1px solid black;
+    }
+}

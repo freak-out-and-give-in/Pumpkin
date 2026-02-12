@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 50px 0;
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+
+table {
+    width: 90%;
+    margin: 10px auto;
+
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+/* Push the text to the top of the row, and create space around each row */
+th, td {
+    padding: 0.6em;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    vertical-align: top;
+
+    text-align: center;
+}
+
+/* Ensures the rows are not just the color of the background */
+tbody tr {
+    background: #F4F3F2;
+}
+
+/* Creates stripes on header and footer */
+thead, tfoot {
+    background-color: #FCB932;
+}
