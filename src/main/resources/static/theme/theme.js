@@ -2,7 +2,13 @@ export { updateTheme };
 
 
 function updateTheme() {
-    const currentTheme = window.localStorage.getItem('data-theme');
+    let currentTheme = window.localStorage.getItem('data-theme');
+
+    // If the user hasn't changed the theme yet,
+    // this sets the default theme so the screen isn't devoid of colour
+    if (currentTheme == null) {
+        currentTheme = 'light';
+    }
 
     const navigationTextName = '--navigation-text-color';
     const headerNavigationName = '--header-navigation-color';

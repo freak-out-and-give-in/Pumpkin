@@ -1,4 +1,4 @@
-import { updateTheme } from "/static/theme/theme.js";
+import { updateTheme } from "/theme/theme.js";
 
 // Global variables
 const form = document.querySelector('form');

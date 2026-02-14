@@ -5,7 +5,7 @@ const title = document.title;
 // Create the classes
 const logoClass = createHTMLClass(`
     <div class="logo">
-        <img src="/static/base/logo/pumpkin.png" alt="pumpkin's logo">
+        <img src="/base/logo/pumpkin.png" alt="Pumpkin's logo">
     </div class="logo">
 `);
 
@@ -18,36 +18,36 @@ const headerClass = createHTMLClass(`
 const navigationClass = createHTMLClass(`
     <nav>
         <div class="item">
-            <img src="/static/base/navigation/dashboard.svg" alt="home icon">
-            <a href="../dashboard/dashboard.html" class="button">Dashboard</a>
+            <img src="/base/navigation/dashboard.svg" alt="Home icon">
+            <a href="/dashboard" class="button">Dashboard</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/inventory.svg" alt="inventory icon">
-            <a href="../inventory/inventory.html" class="button">Inventory</a>
+            <img src="/base/navigation/inventory.svg" alt="Inventory icon">
+            <a href="/inventory" class="button">Inventory</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/purchases.svg" alt="purchases icon">
-            <a href="../purchases/purchases.html" class="button">Purchases</a>
+            <img src="/base/navigation/purchases.svg" alt="Purchases icon">
+            <a href="/purchases" class="button">Purchases</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/sales.svg" alt="sales icon">
-            <a href="../sales/sales.html" class="button">Sales</a>
+            <img src="/base/navigation/sales.svg" alt="Sales icon">
+            <a href="/sales" class="button">Sales</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/customers.svg" alt="customers icon">
-            <a href="../customers/customers.html" class="button">Customers</a>
+            <img src="/base/navigation/customers.svg" alt="Customers icon">
+            <a href="/customers" class="button">Customers</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/suppliers.svg" alt="suppliers icon">
-            <a href="../suppliers/suppliers.html" class="button">Suppliers</a>
+            <img src="/base/navigation/suppliers.svg" alt="Suppliers icon">
+            <a href="/suppliers" class="button">Suppliers</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/reports.svg" alt="reports icon">
-            <a href="../reports/reports.html" class="button">Reports</a>
+            <img src="/base/navigation/reports.svg" alt="Reports icon">
+            <a href="/reports" class="button">Reports</a>
         </div>
         <div class="item">
-            <img src="/static/base/navigation/settings.svg" alt="settings icon">
-            <a href="../settings/settings.html" class="button">Settings</a>
+            <img src="/base/navigation/settings.svg" alt="Settings icon">
+            <a href="/settings" class="button">Settings</a>
         </div>
     </nav>
 `);
