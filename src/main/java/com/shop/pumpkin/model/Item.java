@@ -19,6 +19,9 @@ public class Item {
     private int amount;
 
     @Column(nullable = false)
+    private int quantity;
+
+    @Column(nullable = false)
     private double weight;
 
     @Column(nullable = false)
@@ -33,9 +36,10 @@ public class Item {
     public Item() {
     }
 
-    public Item(String name, double wholesalePrice, double retailPrice, int amount, double weight) {
+    public Item(String name, double wholesalePrice, double retailPrice, int amount, int quantity, double weight) {
         this.name = name;
         this.amount = amount;
+        this.quantity = quantity;
         this.weight = weight;
         this.wholesalePrice = wholesalePrice;
         this.retailPrice = retailPrice;
@@ -44,10 +48,6 @@ public class Item {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -64,6 +64,14 @@ public class Item {
 
     public void setAmount(int amount) {
         this.amount = amount;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 
     public double getWeight() {

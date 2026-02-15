@@ -54,6 +54,8 @@ nav {
     padding: 20px 25px;
 
     .item {
+        position: sticky;
+
         padding: 10px 0px;
         text-align: center;
 
@@ -74,6 +76,41 @@ nav {
             cursor: pointer;
         }
     }
+
+    /* This section is to make sure the items aren't on top of each other, due to position: sticky */
+    --item-gap: 64px;
+
+    .item:nth-child(1) {
+        top: 0;
+    }
+
+    .item:nth-child(2) {
+        top: calc(1 * var(--item-gap));
+    }
+
+    .item:nth-child(3) {
+        top: calc(2 * var(--item-gap));
+    }
+
+    .item:nth-child(4) {
+        top: calc(3 * var(--item-gap));
+    }
+
+    .item:nth-child(5) {
+        top: calc(4 * var(--item-gap));
+    }
+    .item:nth-child(6) {
+        top: calc(5 * var(--item-gap));
+    }
+
+    .item:nth-child(7) {
+        top: calc(6 * var(--item-gap));
+    }
+
+    .item:nth-child(8) {
+        top: calc(7 * var(--item-gap));
+    }
+
 }
 
 main {

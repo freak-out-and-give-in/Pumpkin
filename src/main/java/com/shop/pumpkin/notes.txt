@@ -1,0 +1,9 @@
+Add a money class to keep track of money
+    Lose/gain money when we purchase and sale
+    Can add money object to customers amount bought/refunded
+
+Use the Sales history and Money to
+    analyse trends
+    predict
+
+junit & selenium testing

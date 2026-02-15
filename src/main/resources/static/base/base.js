@@ -30,10 +30,6 @@ const navigationClass = createHTMLClass(`
             <a href="/purchases" class="button">Purchases</a>
         </div>
         <div class="item">
-            <img src="/base/navigation/sales.svg" alt="Sales icon">
-            <a href="/sales" class="button">Sales</a>
-        </div>
-        <div class="item">
             <img src="/base/navigation/customers.svg" alt="Customers icon">
             <a href="/customers" class="button">Customers</a>
         </div>
