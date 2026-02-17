@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-public class PurchasesController {
+public class PurchaseController {
 
     private final PurchaseService purchaseService;
 
     @Autowired
-    public PurchasesController(PurchaseService purchaseService) {
+    public PurchaseController(PurchaseService purchaseService) {
         this.purchaseService = purchaseService;
     }
 

@@ -8,7 +8,10 @@
     <script src="/base/base.js" defer></script>
     <script src="/theme/theme.js" type="module" defer></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
     <link rel="stylesheet" href="/pages/reports/reports.css">
+    <script src="/pages/reports/reports.js" type="module"></script>
 
     <title>Reports</title>
 </head>
@@ -19,6 +22,15 @@
     <main-header></main-header>
     <main-nav></main-nav>
     <main>
+        <graph>
+            <canvas id="average-weight"></canvas>
+        </graph>
+        <graph>
+            <canvas id="average-purchase"></canvas>
+        </graph>
+        <graph>
+            <canvas id="membership-rate"></canvas>
+        </graph>
     </main>
 </div>
 

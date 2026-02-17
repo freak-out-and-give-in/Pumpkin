@@ -1,0 +1,5 @@
+name,membership,membershipDateBought,totalAmountPurchased,totalAmountRefunded,complaints,employeeComments,ban
+joe,true,2024-12-10,10.98,0,,,false
+strummer,false,2020-04-29,0,0,,,false
+the,true,2026-02-17,100000,100000,no revolution,a bit empty,false
+clash,true,1976-08-01,48.99,0.01,,pretty good,false

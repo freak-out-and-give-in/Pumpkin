@@ -2,8 +2,15 @@ Add a money class to keep track of money
     Lose/gain money when we purchase and sale
     Can add money object to customers amount bought/refunded
 
-Use the Sales history and Money to
-    analyse trends
-    predict
 
-junit & selenium testing
+
+the plan is to
+keep inventory, purchases and customers the same and be ok that its all separate data
+
+create the reports page
+write some simple algorithms in the backend for analytics
+link up the stats to the analytics page
+update the dashboard page for stats
+
+junit testing
+selenium testing

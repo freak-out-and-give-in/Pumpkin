@@ -69,5 +69,9 @@ public class Purchase {
     public void setDate(String date) {
         this.date = date;
     }
+
+    public boolean getmaou() {
+        return false;
+    }
 }
 
