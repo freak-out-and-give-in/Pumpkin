@@ -25,14 +25,14 @@ public class PurchaseAnalyticsService {
         return purchaseRepository.findAll().size();
     }
 
-    public double calculateAverageAmountPurchased() {
+    public List<Double> getAmountPurchased() {
         List<AmountPurchasedOnly> amountPurchased = purchaseRepository.findAmountPurchased();
 
-        double sum = amountPurchased.stream()
+        List<Double> amount = amountPurchased.stream()
                 .map(AmountPurchasedOnly::amountPurchased)
-                .mapToDouble(n -> n).sum();
-        int amount = amountPurchased.size();
+                .mapToDouble(n -> n)
+                .boxed().toList();
 
-        return sum / amount;
+        return amount;
     }
 }

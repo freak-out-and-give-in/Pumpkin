@@ -32,13 +32,6 @@ public class PagesController {
         return new ModelAndView("/pages/purchases/purchases.html");
     }
 
-    @GetMapping("/sales")
-    public ModelAndView loadSalesPage() {
-        log.info("Loading the sales page");
-
-        return new ModelAndView("/pages/sales/sales.html");
-    }
-
     @GetMapping("/customers")
     public ModelAndView loadCustomersPage() {
         log.info("Loading the customers page");

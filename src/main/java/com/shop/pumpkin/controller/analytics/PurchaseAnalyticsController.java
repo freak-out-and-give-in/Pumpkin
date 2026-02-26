@@ -20,9 +20,9 @@ public class PurchaseAnalyticsController {
         purchaseAnalyticsService.calculateAmountOfPurchases();
     }
 
-    @GetMapping("/analytics/purchase/averageAmountPurchased")
-    public void getAverageAmountPurchased() {
-        purchaseAnalyticsService.calculateAverageAmountPurchased();
+    @GetMapping("/analytics/purchase/amountPurchased")
+    public void getAmountPurchased() {
+        purchaseAnalyticsService.getAmountPurchased();
     }
 
 }

@@ -1,9 +1,20 @@
 main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 
-    graph {
+    margin: 30px;
+    border-radius: 5%;
 
-        canvas {
-        }
+    canvas {
+        max-width: 600px;
+        border-radius: 5%;
+
+        padding: 60px;
+        margin: 20px;
+
+        background: lightBlue;
     }
 }
 
