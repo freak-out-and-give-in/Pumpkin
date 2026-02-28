@@ -1,3 +1,4 @@
+/*
 new Chart("average-weight", {
   type: "bar",
   data: {
@@ -9,3 +10,4 @@ new Chart("average-weight", {
   },
   options: {}
 });
+*/

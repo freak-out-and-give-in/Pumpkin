@@ -1,0 +1,29 @@
+[33mcommit 92daf2dc52c7f3eb7b8cb04b2c5ffe57c9e4a9ab[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: pumpkin <James10384@outlook.com>
+Date:   Tue Feb 17 20:51:55 2026 +0000
+
+    Added some analytics classes, and unit tests for services
+
+[33mcommit 93dd6c22eb58272610d80c37599573ebaa9acfde[m
+Author: pumpkin <James10384@outlook.com>
+Date:   Sun Feb 15 15:04:51 2026 +0000
+
+    Changed a lot
+
+[33mcommit 91526be6724850d8275185ec968475bb7af7dbd0[m
+Author: pumpkin <James10384@outlook.com>
+Date:   Sat Feb 14 02:14:11 2026 +0000
+
+    Changed from Hexagonal architecture to Layered
+
+[33mcommit 2ef9c8e0525839078f0067f2a4a3e28d0060f14c[m
+Author: pumpkin <James10384@outlook.com>
+Date:   Thu Feb 12 13:55:49 2026 +0000
+
+    Adding in some files necessary for downloading the project
+
+[33mcommit b199b68045b35c8b8776def73aee7557baede90b[m
+Author: pumpkin <James10384@outlook.com>
+Date:   Thu Feb 12 13:49:43 2026 +0000
+
+    Made the skeleton of the application, and the front-end
