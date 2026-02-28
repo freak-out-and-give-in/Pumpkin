@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 new Chart("average-weight", {
   type: "bar",
@@ -11,3 +12,5 @@ new Chart("average-weight", {
   options: {}
 });
 */
+=======
+>>>>>>> main
